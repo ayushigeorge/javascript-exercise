@@ -1,4 +1,14 @@
-const fruit =["Banana", "Apple", "Grapes", "Cherry"];
-// let fruits = fruit[0];
+//Calling by Value in JS
 
-let fruits= fruit[fruit.length -1];
+function Man(name, salary) {
+  this.name = name;
+  this.salary = salary;
+}
+
+function Health(name, height) {
+  Man.call(this, name, height);
+  this.category = "health";
+}
+
+console.log(new Health("raj", 154).name);
+// expected output: "raj"
