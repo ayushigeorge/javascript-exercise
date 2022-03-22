@@ -12,6 +12,7 @@ console.log("b:", b);
 var c = { greet: "good day" };
 var d;
 d = c;
+
 c.greet = "Have a good day!";
 console.log("c:", c);
 console.log("d: ", d);
