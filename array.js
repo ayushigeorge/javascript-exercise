@@ -54,3 +54,12 @@ const map1 = array6.map((x) => {
 });
 console.log(map1);
 //[4,16,9,1,25]
+
+// 7. Reduce
+// to perform operation on current and previous value
+let sum = [0, 1, 2, 3, 4].reduce(
+  (previousValue, currentValue) => currentValue + previousValue,
+  0
+);
+console.log(sum);
+//10
