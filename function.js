@@ -21,4 +21,4 @@ const division = (a, b) => a / b;
 
 let c = 9;
 let d = 90;
-const mod = (c, d) => d % c;
+const modulus = (c, d) => d % c;
